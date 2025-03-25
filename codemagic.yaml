@@ -11,4 +11,4 @@ workflows:
       - flutter pub get
       - flutter build apk
     artifacts:
-      - vnno_flutter_app/build/app/outputs/flutter-apk/app-release.apk
+      - build/app/outputs/flutter-apk/app-release.apk
