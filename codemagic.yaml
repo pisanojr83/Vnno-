@@ -6,7 +6,7 @@ workflows:
       flutter: stable
       xcode: latest
     scripts:
-      - unzip vnno_flutter_app.zip -d
+      - unzip vnno_flutter_app.zip -d .
       - flutter pub get
       - flutter build apk
     artifacts:
