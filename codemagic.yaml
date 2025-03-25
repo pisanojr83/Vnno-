@@ -7,7 +7,7 @@ workflows:
       xcode: latest
     scripts:
       - unzip VNNO_by_JPR_Flutter_Root.zip
-      - cd vnno_flutter_app
+      - cd VNNO_by_JPR_Flutter_Root
       - flutter pub get
       - flutter build apk
     artifacts:
